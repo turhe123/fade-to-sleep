@@ -1,0 +1,60 @@
+{
+  "seo_title": "Sleep timer with fade for macOS",
+  "seo_description": "FadeToSleep is a free, open-source Mac menu bar sleep timer. Volume and screen brightness fade out together, then your music pauses and your Mac sleeps.",
+  "hero_title_line1": "Fall asleep to audio.",
+  "hero_title_accent": "Wake to a quiet Mac.",
+  "hero_sub": "Pick a duration from the menu bar and FadeToSleep gently lowers volume and screen brightness, pauses your media, then sleeps your Mac. Record a global hotkey to restart your last timer.",
+  "features_title": "A gentle exit, handled.",
+  "features_sub": "Everything runs locally in the menu bar, with no accounts and no network access.",
+  "features": [
+    {
+      "icon": "speaker",
+      "title": "Smooth volume fade",
+      "desc": "Output volume ramps linearly to zero over the final minutes of the timer, updated every second. The fade window defaults to 5 minutes and can be set from 1 to 60."
+    },
+    {
+      "icon": "display",
+      "title": "Screen brightness fade",
+      "desc": "The built-in display dims along with the volume. If your Mac has no built-in display, this step is skipped silently, and brightness is always restored afterward."
+    },
+    {
+      "icon": "clock",
+      "title": "Presets and live countdown",
+      "desc": "Start with 15, 30, 45, 60 or 90 minutes, or enter any value from 1 to 600. A progress ring shows the time left, with Add 15 Minutes and Cancel buttons."
+    },
+    {
+      "icon": "bolt",
+      "title": "Choose how it ends",
+      "desc": "Sleep the Mac, sleep only the display, or just pause. FadeToSleep sends the system Play/Pause key first, so podcasts and videos stop before sleep."
+    },
+    {
+      "icon": "shield",
+      "title": "Respects your changes",
+      "desc": "If you adjust the volume during a fade, the fade pauses and the menu offers Resume Fade. Volume and brightness are restored if you quit mid-fade, and volume can be restored after wake."
+    },
+    {
+      "icon": "keyboard",
+      "title": "Hotkey and login launch",
+      "desc": "Record a global shortcut that starts your last-used duration, and optionally launch at login. A notification warns you one minute before the fade begins."
+    }
+  ],
+  "permissions_step": "When you start a timer, grant Accessibility access in System Settings > Privacy & Security > Accessibility so FadeToSleep can pause your media; notifications are optional.",
+  "faq": [
+    {
+      "q": "Is FadeToSleep really free and open source?",
+      "a": "Yes. It is released under the MIT license, and the full source is on GitHub. There are no accounts, no ads and no tracking. If it helps you, you can optionally support development through the Support button."
+    },
+    {
+      "q": "What permissions does it need?",
+      "a": "Accessibility is used only to send the Play/Pause media key at the end of the timer. Without it, the fade and sleep still work but media is not paused. Notifications are optional, and it never asks for Screen Recording or Microphone access."
+    },
+    {
+      "q": "Where is my data stored?",
+      "a": "Only on your Mac. Your settings are saved locally in the app's preferences, and FadeToSleep makes no network connections. Volume and brightness are controlled directly through Core Audio and IOKit."
+    },
+    {
+      "q": "Why isn't the app notarized?",
+      "a": "Notarization requires a paid Apple Developer account, which this free project does not have. Right-click the app and choose Open once to approve it, or build it yourself from source with Xcode."
+    }
+  ]
+}

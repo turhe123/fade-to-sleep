@@ -1,5 +1,7 @@
 # FadeToSleep
 
+**🌐 Website:** [turhe123.github.io/fade-to-sleep](https://turhe123.github.io/fade-to-sleep/)
+
 Start a timer and your Mac's volume and screen glide down together before it pauses music and sleeps.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -34,7 +36,17 @@ FadeToSleep is a free, open-source, 100% native, backend-free alternative to pai
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-countdown.png" alt="FadeToSleep popover showing a 1:29:54 countdown ring" width="720"></p>
+
+<p align="center"><em>A running sleep timer in the menu bar popover, with a progress ring counting down, Add 15 Minutes and Cancel buttons, and a note on what happens at the end.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-presets.png" alt="FadeToSleep popover with duration presets and Start button" width="560"></p>
+
+<p align="center"><em>The idle popover with one-click 15–90 minute presets and a custom minutes field to start a fade.</em></p>
+
+<p align="center"><img src="docs/screenshots/03-settings.png" alt="FadeToSleep Settings window" width="560"></p>
+
+<p align="center"><em>Settings for fade length, end action, brightness fade, volume restore, launch at login and a global shortcut.</em></p>
 
 ## Install
 

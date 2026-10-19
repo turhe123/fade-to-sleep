@@ -1,0 +1,5 @@
+[
+  {"file":"01-countdown.png","caption":"A running sleep timer in the menu bar popover, with a progress ring counting down, Add 15 Minutes and Cancel buttons, and a note on what happens at the end.","alt":"FadeToSleep popover showing a 1:29:54 countdown ring"},
+  {"file":"02-presets.png","caption":"The idle popover with one-click 15–90 minute presets and a custom minutes field to start a fade.","alt":"FadeToSleep popover with duration presets and Start button"},
+  {"file":"03-settings.png","caption":"Settings for fade length, end action, brightness fade, volume restore, launch at login and a global shortcut.","alt":"FadeToSleep Settings window"}
+]
